@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: TMC
   productName: VisuAlgoX
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -163,9 +163,9 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Standalone: com.DefaultCompany.3D-Project
+    Standalone: com.TMC.VisuAlgoX
   buildNumber:
-    Standalone: 0
+    Standalone: 1
     VisionOS: 0
     iPhone: 0
     tvOS: 0
@@ -844,7 +844,8 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: LETAI_TRUESHADOW
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -942,7 +943,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 0
   windowsGamepadBackendHint: 0
   cloudProjectId: 0912e9d1-9957-4f13-9363-24ad81d5348b
   framebufferDepthMemorylessMode: 0
